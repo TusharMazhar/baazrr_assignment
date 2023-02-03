@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleChart.css">
+    <title>Chart</title>
+</head>
+<body>
+    
+    <div class="wrap">
+        <div>
+            <p><span class="title">Doughnut  Chart:</span> Product that the user has sold the most in descending order</p>
+            <div class="doughnut-chart">
+                <canvas id="doughnut1" ></canvas>
+                <canvas id="doughnut2" ></canvas> 
+                <canvas id="doughnut3" ></canvas> 
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-element">
+        <div class="element">
+            <p><span class="title">Line  Chart:</span>User's total profit based on different categories</p>
+            <canvas id="lineChart"></canvas>
+        </div>
+        <div class="element">
+            <p><span class="title">Radar  Chart:</span>Top 5  products are most popular among customers</p>
+            <canvas id="radarChart"></canvas>
+        </div>
+    </div>
+        
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.min.js" integrity="sha512-qKyIokLnyh6oSnWsc5h21uwMAQtljqMZZT17CIMXuCQNIfFSFF4tJdMOaJHL9fQdJUANid6OB6DRR0zdHrbWAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="appChart.js" type="module"></script>
+</body>
+</html>
